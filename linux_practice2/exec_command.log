@@ -1,0 +1,292 @@
+    1  ls
+    2  ls -a
+    3  ls -la
+    4  ls /
+    5  cat anaconda-post.log
+    6  ls /usr
+    7  pwd
+    8  cd ~
+    9  ls
+   10  pwd
+   11  ls /
+   12  cd -
+   13  ls -
+   14  cd .
+   15  ls
+   16  cd ../
+   17  cd ../ 
+   18  cd ~
+   19  ls
+   20  cd ../
+   21  cd /root
+   22  cd usr
+   23  cd /usr
+   24  cd /home
+   25  cd /usr
+   26  cd /home
+   27  mkdir test1
+   28  ls
+   29  ls -la
+   30  cd /home
+   31  mkdir test2/test3
+   32  pwd
+   33  cd /home
+   34  mkdir -p test2/test3
+   35  ls test2
+   36  touch test1/index.php
+   37  ls test1
+   38  cd /home/test1 && ls 
+   39  cd /home/test1
+   40  cp index.php copy.php
+   41  ls
+   42  cd /home
+   43  cp -r test1 test4
+   44  ls
+   45  ls test4
+   46  cd /home
+   47  mv test2/test3 test3
+   48  ls test2/
+   49  cd /home
+   50  mv test4 test1_copy
+   51  ls
+   52  ls test1
+   53  rm test1/copy.php
+   54  ls test1
+   55  rm -r test3
+   56  ls
+   57  rm test_copy/*.php
+   58  rm test1_copy/*.php
+   59  ls
+   60  ls test1
+   61  ls test1_copy
+   62  ls test2
+   63  rm test1_copy/*.php
+   64  ls test1_copy
+   65  cat README.md
+   66  echo '# Hello World' > README.md
+   67  cat README.md
+   68  echo '#Server Lesson' > README.md
+   69  cat README.md
+   70  echo Hello!
+   71  echo 'Linux Practice' >> README.md 
+   72  echo '-----------------' >> README.md 
+   73  cat README.md 
+   74  vi README.md 
+   75  cat README.md 
+   76  ls test1 && ls test1
+   77  ls test1_copy
+   78  ls test2
+   79  cd root 
+   80  cd /root
+   81  mkdir server_lesson && cd server_lesson
+   82  ls
+   83  pwd
+   84  yum update -y && yum -y install git
+   85  git version
+   86  git init
+   87  touch first.txt
+   88  cat first.txt 
+   89  git staus
+   90  git status
+   91  git status
+   92  git log
+   93  git diff
+   94  git add .
+   95  git status
+   96  git commit -m 'first commit'
+   97  git log
+   98  git statsu
+   99  git status
+  100  git log
+  101  git add .
+  102  git log
+  103  git status
+  104  git commit -m 'first commit'
+  105  git config --global user.email "shokutaa@gmail.com"
+  106  git config --global user.name "iotassss"
+  107  git log
+  108  git commit -m 'first commit'
+  109  git log
+  110  pwd
+  111  ls 
+  112  mkdir -p linux_practice1/public
+  113  cd linux_practice1/public
+  114  ls
+  115  pwd
+  116  touch index.php
+  117  ls
+  118  cp index.php index_bk.php
+  119  ls
+  120  cd ../
+  121  cp -r public tmp
+  122  ls
+  123  ls tmp
+  124  rm -r index_bk.php
+  125  ls tmp
+  126  rm tmp/index_bk.php 
+  127  ls
+  128  ls tmp
+  129  cd ..
+  130  touch README.md
+  131  vi README.md 
+  132  cat README.md 
+  133  ls
+  134  vim README.md
+  135  vi README.md
+  136  vi
+  137  ls
+  138  ls linux_practice1/
+  139  ls linux_practice1/public/
+  140  ls linux_practice1/tmp/
+  141  ls
+  142  mkdir -p linux_practice2/documents
+  143  cd linux_practice2/documents
+  144  ls
+  145  echo {01..10}
+  146  echo {01..50}
+  147  touch gizumo{01..50}.md
+  148  ls
+  149  cd ../
+  150  mkdir trash
+  151  ls
+  152  ls documents/
+  153   mv documents/gizumo{20..40}.md trash/
+  154  ls
+  155  ls trash/
+  156  ls documents/
+  157  touch .gitignore
+  158  vi .gitignore 
+  159  git dif
+  160  git diff 
+  161  git status
+  162  cd ..
+  163  git diff
+  164  git status
+  165  git add .
+  166  git commit -m '2-3'
+  167  git log
+  168  ls
+  169  ls -a
+  170  cd linux_practice2
+  171  ls
+  172  ls documents/
+  173  ls -a
+  174  git log
+  175  git status
+  176  vi .gitignore 
+  177  cat .gitignore 
+  178  git log
+  179  git status
+  180  git add .
+  181  git status
+  182  git commit -m '2-4-1'
+  183  echo 2*
+  184  echo {20..29}
+  185  ls
+  186  echo 2*0
+  187  echo 2*lmd
+  188  vi .gitignore 
+  189  git status --ignored
+  190  git log
+  191  git add .
+  192  git status
+  193  git status --ignored
+  194  vi .gitignore 
+  195  git status
+  196  git commit -m '2-4-2'
+  197  git log
+  198  git status --ignored
+  199  git add .
+  200  git status
+  201  git commit -m '2-4-3'
+  202  exit
+  203  ls
+  204  cd root
+  205  ls
+  206  cd server_lesson/
+  207  ls
+  208  ls -a
+  209  cd linux_practice2
+  210  ls
+  211  ls- a
+  212  ls -a
+  213  cat .gitignore 
+  214  code .
+  215  git status --ignored
+  216  vi .ignore
+  217  ls -a
+  218  vi .gitignore 
+  219  git status 
+  220  git status --ignored
+  221  touch test.md
+  222  vi .gitignore 
+  223  git status 
+  224  git status --ignored
+  225  vi .g
+  226  vi .gitignore 
+  227  git status --ignored
+  228  ls
+  229  git status --ignored
+  230  ls -a
+  231  vi .gitignore 
+  232  git status --ignored
+  233  vi .gitignore 
+  234  git status --ignored
+  235  vi .gitignore 
+  236  git status --ignored
+  237  vi .gitignore 
+  238  git status --ignored
+  239  vi .gitignore 
+  240  git status --ignored
+  241  git status --ignored
+  242  vi .gitignore 
+  243  ls
+  244  ls trash
+  245  git status
+  246  mkdir trash2
+  247  ls
+  248  vi .gitignore 
+  249  git status --ignored
+  250  git rm -r --cached .
+  251  çgit log
+  252  git log 
+  253  git status
+  254  git status --ignored
+  255  git status --ignored
+  256  git status
+  257  git log
+  258  vi .gitignore 
+  259  git status --ignored
+  260  vi .gitignore 
+  261  git status --ignored
+  262  ls
+  263  vi .gitignore 
+  264  git status --ignored
+  265  ls -a
+  266  rm -r trash2
+  267  ls
+  268  ls trash
+  269  vi .gitignore 
+  270  git status --ignored
+  271  vi .gitignore 
+  272  git status --ignored
+  273  git add .
+  274  git status
+  275  git log
+  276  git commit -m '2-4-4'
+  277  git status --ignored
+  278  vi .gitignore 
+  279  cat .gitignore 
+  280  git add .
+  281  git log
+  282  git commit -m '2-4-5'
+  283  git status --ignored
+  284  git rm -r --cached .
+  285  vi .gitignore 
+  286  cat .gitignore 
+  287  git add .
+  288  git log
+  289  git commit -m '2-4-6'
+  290  git status --ignored
+  291  history 300
+  292  history 300 >> exec_command.log
